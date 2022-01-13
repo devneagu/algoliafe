@@ -1,0 +1,14 @@
+.star {
+    height:15px;
+    width:15.16px;
+}
+.starFilled {
+    position:absolute;
+}
+.star__half {
+    height:15px;
+    width:15.16px;
+    -webkit-clip-path: polygon(0% 0%, 50% 0%, 51% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 50% 0%, 51% 100%, 0% 100%);
+
+}   

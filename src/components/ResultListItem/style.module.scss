@@ -1,0 +1,26 @@
+.flex {
+    display:flex;
+    gap:20px;
+    align-items: center;
+}
+
+.resultItemImage {
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+    width:80px;
+    height:80px;
+    border-radius:4px;
+}
+
+.header {
+    color:'black';
+    font-weight: 500;
+}
+.secondary {
+    color:rgba(112,112,112,0.6);
+    font-weight: 500;
+    font-family: 'Helvetica Neue';
+}
+.primary2 {
+    color : #FFAB66;
+    font-weight: 500;
+}

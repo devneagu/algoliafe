@@ -1,0 +1,28 @@
+.selectedFilter {
+    margin:0;
+    background:#2897C5;
+    padding:5px 10px;
+    border-radius:4px;
+    color:white;
+    user-select: none;
+    cursor:pointer;
+    font-weight: 500;
+}
+.filter {
+    margin:0;
+    padding:5px 10px;
+    font-weight: 500;
+    cursor:pointer;
+}
+
+.filterCount {
+    position:absolute;
+    right:10px;
+    font-weight: 300;
+}
+.filterTitle {
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    display: block;
+}

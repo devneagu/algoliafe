@@ -1,0 +1,22 @@
+.container {
+    padding:40px 20px 20px 40px;
+    flex-grow: 1;
+    font-size:0.8em;
+    flex-basis: 0;
+}
+.resultMessage {
+    margin-bottom: 10px;
+    border-bottom:1px solid #d3d3d3;
+    padding-bottom: 5px;
+    display:block;
+}
+.buttonShowMore {
+    padding:10px 60px;
+    border:1px solid #d3d3d3;
+    font-weight: 500;
+    color:rgba(0,0,0,0.5);
+    display:inline-block;
+    border-radius: 4px;
+    font-size: 1.1em;
+    cursor: pointer;
+}

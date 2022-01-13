@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import { ResultList, SearchBar, Sidebar } from './components';
+import Layout from './layout';
+import styles from './style.module.scss';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Layout>
+        <SearchBar />
+        <div className={styles['flex']}>
+          <Sidebar />
+          <ResultList />
+        </div>
+      </Layout>
   );
 }
 
